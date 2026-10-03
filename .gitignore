@@ -1,0 +1,100 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# OS Generated Files
+# ==============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Test / Coverage
+# ==============================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Type Checking / Linters
+# ==============================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Local Database / Temporary Data
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
